@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    background-color: rgb(245, 212, 245);
+}
+
+.button{
+    background: #ee57ee;
+    padding: .4rem 1rem;
+    color: #fff;
+    border: none;
+    border-radius: .3rem;
+    margin-top: 1rem;
+}
+.button:hover{
+    background: #e704e7;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,.2);
+}
+
+.modal-content{
+    background-color: #e2cfdd;
+    margin: 15% auto;
+    padding: 2rem;
+    width: 40%;
+    box-shadow: 0 .3rem .5rem 0 rgba(0,0,0,.2);
+}
+
+.closebtn{
+    color: #917a91;
+    float: right;
+    font-size: 1.5rem;
+
+}
+
+.h1{
+    color:#a049a0;
+    font-size: 1.4rem;
+}
+
+.closebtn:hover{
+    color: #212121;
+    text-decoration: none;
+    cursor: pointer;
+}
